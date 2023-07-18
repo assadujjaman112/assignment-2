@@ -1,0 +1,8 @@
+/* Media response for mobile or smaller devices */
+
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .menus {
+        flex-direction: column;
+      }
+}
