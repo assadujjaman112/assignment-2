@@ -1,19 +1,26 @@
 /* Media response for mobile or smaller devices */
 
 @media screen and (max-width: 576px) {
-    .nav-container,
-    .menus {
-        flex-direction: column;
-      }
-      .banner{
-        flex-direction: column-reverse;
-        gap: 20px;
-      }
-      .banner-main-image {
-        width: 400px;
-        height: 350px;
-      }
-      .banner-button-2 {
-        margin:10px 0;;
-      }
+  .nav-container, .gamer,
+  .menus {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .banner-main-image {
+    width: 400px;
+    height: 350px;
+  }
+  .banner-button-2 {
+    margin: 10px 0;
+  }
+  .gamer-content, .gamer-image  {
+    width: 90%;
+    text-align: center;
+  }
+  .gamer-moto{
+    margin-bottom: 50px;
+  }
 }

@@ -77,11 +77,12 @@ nav {
   color: transparent;
   -webkit-background-clip: text;
 }
-.banner-description {
+.banner-description,
+.gamer-description {
   color: #534c64;
   font-size: 1.25rem;
   font-weight: 500;
-  margin:15px 0;
+  margin: 15px 0;
 }
 .banner-image {
   max-height: 400px;
@@ -90,8 +91,8 @@ nav {
   width: 450px;
   height: 350px;
 }
-.banner-button-1 {
-  padding: 10px 20px;
+.button-common {
+  padding: 10px 30px;
   border-radius: 20px;
   background: #ff42a5;
   color: white;
@@ -104,4 +105,37 @@ nav {
   background: #4ec5f7;
   color: white;
   border: 0;
+}
+
+/* Gamer section styles */
+
+.gamer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.gamer-image {
+  width: 40%;
+}
+.gamer-image img {
+  width: 100%;
+  width: 100%;
+}
+.gamer-tittle {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 10px 0;
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.gamer-content {
+  width: 40%;
+  text-align: right;
+}
+.gamer-moto {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
