@@ -1,7 +1,9 @@
 /* Media response for mobile or smaller devices */
 
 @media screen and (max-width: 576px) {
-  .nav-container, .gamer, .game-boxes,
+  .nav-container,
+  .gamer,
+  .game-boxes,
   .menus {
     flex-direction: column;
   }
@@ -16,19 +18,31 @@
   .banner-button-2 {
     margin: 10px 0;
   }
-  .gamer-content, .gamer-image  {
+  .gamer-content,
+  .gamer-image {
     width: 90%;
     text-align: center;
   }
-  .gamer-motto{
+  .gamer-motto {
     margin-bottom: 50px;
   }
-  .online-games-description{
+  .online-games-description {
     width: 80%;
     margin: 10px auto;
   }
-  .box-description{
+  .box-description {
     width: 70%;
-    margin: 10px auto ;
+    margin: 10px auto;
+  }
+  .instant-play {
+    flex-direction: column;
+    width: 100%;
+  }
+  .instant-play-image-container {
+    width: 100%;
+  }
+  .instant-play-content{
+    width: 100%;
+    text-align: center;
   }
 }
