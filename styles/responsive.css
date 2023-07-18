@@ -1,7 +1,7 @@
 /* Media response for mobile or smaller devices */
 
 @media screen and (max-width: 576px) {
-  .nav-container, .gamer,
+  .nav-container, .gamer, .game-boxes,
   .menus {
     flex-direction: column;
   }
@@ -20,7 +20,15 @@
     width: 90%;
     text-align: center;
   }
-  .gamer-moto{
+  .gamer-motto{
     margin-bottom: 50px;
+  }
+  .online-games-description{
+    width: 80%;
+    margin: 10px auto;
+  }
+  .box-description{
+    width: 70%;
+    margin: 10px auto ;
   }
 }
