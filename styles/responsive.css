@@ -53,4 +53,11 @@
     left: 10px;
     bottom: 90px;
   }
+  .game-list{
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 }

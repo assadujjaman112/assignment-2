@@ -318,3 +318,24 @@ nav {
   width: 400px;
   height: 450px;
 }
+
+/* Game list section */
+
+.game-list{
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.single-game{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.game-icon{
+  width: 40px;
+  height: 40px;
+}
