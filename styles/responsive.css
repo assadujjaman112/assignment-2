@@ -60,4 +60,39 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+  .important-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .social-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 60px;
+  }
+  .more-links{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+  .banner, .play-online{
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .gamer,.instant-play{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .gamer-content,.instant-play-content, .play-online-content {
+    text-align: center;
+    width: 80%;
+  }
+  .game-boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .box-description{
+    margin-left: 30px;
+  }
 }
