@@ -4,10 +4,11 @@
   .nav-container,
   .gamer,
   .game-boxes,
-  .menus {
+  .menus{
     flex-direction: column;
   }
-  .banner {
+  .banner,
+  .play-online {
     flex-direction: column-reverse;
     gap: 20px;
   }
@@ -34,15 +35,22 @@
     width: 70%;
     margin: 10px auto;
   }
-  .instant-play {
+  .instant-play,.career  {
     flex-direction: column;
     width: 100%;
   }
-  .instant-play-image-container {
+  .instant-play-image-container,
+  .play-online-image-container, .career-content {
     width: 100%;
   }
-  .instant-play-content{
+  .instant-play-content,
+  .play-online-content {
     width: 100%;
     text-align: center;
+  }
+  .play-small-image-2 img {
+    position: relative;
+    left: 10px;
+    bottom: 90px;
   }
 }

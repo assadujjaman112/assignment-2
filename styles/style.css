@@ -79,8 +79,9 @@ nav {
 }
 .banner-description,
 .gamer-description,
-.online-games-description, 
-.instant-play-description {
+.online-games-description,
+.instant-play-description,
+.play-online-description {
   color: #534c64;
   font-size: 1.25rem;
   font-weight: 500;
@@ -148,7 +149,9 @@ nav {
   text-align: center;
   margin: 50px 0;
 }
-.online-games-tittle, .instant-play-tittle{
+.online-games-tittle,
+.instant-play-tittle,
+.play-online-tittle {
   color: #0b0223;
   font-size: 2rem;
   font-weight: 700;
@@ -185,42 +188,133 @@ nav {
   position: relative;
   bottom: 300px;
 }
-.instant-play-content{
-    text-align: right;
+.instant-play-content {
+  text-align: right;
 }
 
 /* Play section styles */
 
-.instant-play{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+.instant-play,
+.play-online {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
-.instant-play-content{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.instant-play-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.instant-play-image-container{
-    width: 50%;
+.instant-play-image-container,
+.play-online-image-container {
+  width: 50%;
 }
 .play-main-image {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.play-main-image img{
-    width: 70%;
-    height: 80%;
+.play-main-image img {
+  width: 70%;
+  height: 80%;
 }
-.play-small-image img{
-    height: 150px;
-    width: 150px;
-    position: relative;
-    left: 10px;
-    bottom: 80px;
+.play-small-image img {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 10px;
+  bottom: 80px;
+}
+.play-small-image-2 {
+  display: flex;
+  justify-content: right;
+}
+.play-small-image-2 img {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  right: 15px;
+  bottom: 100px;
+}
+.play-online-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+/* career section styles */
+
+.career {
+  background-image: linear-gradient(to right, #ff42a5, rgb(230, 64, 150));
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+  padding: 40px 0;
+}
+.career-content {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career-tittle {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.career-description {
+  margin: 30px 0;
+  color: #fff;
+  font-size: .8rem;
+}
+.career-content div {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+.career-content div .workplace {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.position ul,
+.location ul {
+  list-style: none;
+}
+.workplace .position {
+  text-align: left;
+}
+.workplace .location {
+  text-align: right;
+}
+.career-button {
+  color: #ff42a5;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 0;
+}
+.career-image {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/Group\ 14.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.career-image img {
+  width: 400px;
+  height: 450px;
 }
