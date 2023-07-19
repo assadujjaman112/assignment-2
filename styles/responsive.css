@@ -60,6 +60,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+  .game-name{
+    font-size: .6rem;
+  }
   .important-links{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
