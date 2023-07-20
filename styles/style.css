@@ -224,22 +224,22 @@ nav {
   height: 80%;
 }
 .play-small-image img {
-  height: 150px;
+  height: 180px;
   width: 150px;
   position: relative;
-  left: 10px;
-  bottom: 80px;
+  left: 15px;
+  bottom: 100px;
 }
 .play-small-image-2 {
   display: flex;
   justify-content: right;
 }
 .play-small-image-2 img {
-  height: 150px;
+  height: 180px;
   width: 150px;
   position: relative;
   right: 15px;
-  bottom: 100px;
+  bottom: 90px;
 }
 .play-online-content {
   width: 50%;

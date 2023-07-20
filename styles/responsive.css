@@ -4,7 +4,7 @@
   .nav-container,
   .gamer,
   .game-boxes,
-  .menus{
+  .menus {
     flex-direction: column;
   }
   .banner,
@@ -35,12 +35,14 @@
     width: 70%;
     margin: 10px auto;
   }
-  .instant-play,.career  {
+  .instant-play,
+  .career {
     flex-direction: column;
     width: 100%;
   }
   .instant-play-image-container,
-  .play-online-image-container, .career-content {
+  .play-online-image-container,
+  .career-content {
     width: 100%;
   }
   .instant-play-content,
@@ -48,54 +50,64 @@
     width: 100%;
     text-align: center;
   }
+  .play-small-image img {
+    left: 4px;
+    bottom: 100px;
+  }
   .play-small-image-2 img {
+    height: 150px;
+    width: 120px;
     position: relative;
     left: 10px;
     bottom: 90px;
   }
-  .game-list{
+  .game-list {
     width: 80%;
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .game-name{
-    font-size: .6rem;
+  .game-name {
+    font-size: 0.6rem;
   }
-  .important-links{
+  .important-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .social-links{
+  .social-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 60px;
   }
-  .more-links{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+  .more-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px){
-  .banner, .play-online{
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner,
+  .play-online {
     flex-direction: column-reverse;
     gap: 20px;
   }
-  .gamer,.instant-play{
+  .gamer,
+  .instant-play {
     flex-direction: column;
     gap: 30px;
   }
-  .gamer-content,.instant-play-content, .play-online-content {
+  .gamer-content,
+  .instant-play-content,
+  .play-online-content {
     text-align: center;
     width: 80%;
   }
-  .game-boxes{
+  .game-boxes {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .box-description{
+  .box-description {
     margin-left: 30px;
   }
 }
